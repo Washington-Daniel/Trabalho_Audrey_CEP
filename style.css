@@ -1,0 +1,44 @@
+#mostrarcont {
+    background-color:green;
+    display: none;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+
+#busca {
+    display: flex;
+    background-color: royalblue;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    padding: 15px 15px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aquamarine;
+    padding: 0px;
+    margin: 0px;
+}
+
+#cep{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 34px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+}
